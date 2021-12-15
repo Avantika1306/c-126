@@ -1,0 +1,29 @@
+body{
+    background-image:url("3892129.jpg") ;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    background:linear-gradient(#eb3455 0%,#ff8080 100%);
+    width: 100%;
+    margin: 0px;
+    letter-spacing: 5px;
+    font-family: 'Chewy', cursive;
+    animation-name: reset;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes reset{
+    50%{font-size: 50px;}
+}
+.note{
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+#name{
+    font-size: 30px;
+    margin: 15px;
+    padding: 20px;
+}
